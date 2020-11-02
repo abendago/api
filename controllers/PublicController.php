@@ -7,6 +7,7 @@ Class PublicController extends Controller{
 
 		// $this->loadView("views/login.php");
 		// $this->loadLastView("views/main.php");
+		echo "hjere";
 	}
 
 }

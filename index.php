@@ -1,18 +1,6 @@
 <?php
 session_start();
 include("controllers/Controller.php");
-include("libs/DB.php");
-include("models/User.php");
-include("models/Assignments.php");
-include("models/Assignment.php");
-
-include("models/Student.php");
-include("models/Intake.php");
-
-include("models/Courses.php");
-
-include("models/Grades.php");
-
 include("libs/Errors.php");
 
 $controller = setVariable("controller", "Public");
